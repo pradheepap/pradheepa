@@ -27,8 +27,8 @@ module.exports = {
     contacts: {    
       twitter: '@pradheepa',
       github: 'pradheepap',
-      medium: 'https://pradheepa.medium.com/',
-      linkedin: "https://www.linkedin.com/in/pradheepa"
+      medium: 'pradheepa',
+      linkedin: "pradheepa"
     }
   }
 };
