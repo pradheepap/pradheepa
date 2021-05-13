@@ -1,6 +1,6 @@
 ---
 title: Serverless - An Introduction
-date: "2016-09-01T23:46:37.121Z"
+date: "2021-05-13T00:00:00.121Z"
 template: "post"
 draft: false
 slug: "serverless-an-introduction"
@@ -9,14 +9,16 @@ tags:
   - "Serverless"
   - "Architecture"
   - "Web Application"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
-socialImage: "/media/image-2.jpg"
+description: "Serverless does not mean no servers. Obviously we need some servers to host our content and process our events. Serverless Architecture takes off the load to manage the servers. It will spin-up the server on-need basis. Wondering how it will work? Let's see how."
+socialImage: "/media/serverelss-app-arch.png"
 ---
 
-Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
+Serverless does not mean no servers. Obviously we need some servers to host our content and process our events. Serverless Architecture takes off the load to manage the servers. It will spin-up the server on-need basis. Wondering how it will work? Let's see how.
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
+![Serverless Architecture](/media/serverelss-app-arch.png)
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. 
+The diagram shown above is an example of serverless architecture designed web application in AWS. In a conventional architecture, we have to provision our servers, plan the memory and CPU utilization for our expected workload and will deploy the code.
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+But in serverless architecture, all we need is the code to execute to be deployed. Let's say in an e-commerce application, an order is placed, an event is triggered and the serverless code listening to the order placed event will be triggered. So in serverless architecture, the management of servers is not in the scope of the developers. This lifts the huge weight from the developers shoulders because most of the time they might be wondering is it due to an infrastructure problem or the application service.
+
+The architecture can be designed in such a way to keep up with the load with no specific limitations. With less cost and no servers to maintain, Serverless Architectures can solve most of our day-to-day requirements right from running a e-commerce website to static websites.

@@ -1,5 +1,5 @@
 ---
-title: "SQS - Simple Message Queues"
+title: "SQS - Simple Queue Services"
 date: "2017-08-18T22:12:03.284Z"
 template: "post"
 draft: false
