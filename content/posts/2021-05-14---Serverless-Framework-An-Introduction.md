@@ -100,22 +100,21 @@ The log summary shows that, it had created,
 + default environment as dev (stage) variable.
 + default region : us-east-1
 + Cloudformation stack is named serverless-demo-dev (service name + stage name defined in serverless.yml)
-+ 6 AWS resources. We will look into the CloudFormation stack to see what were all the AWS resources created.
-+ Created a lambda function named serverless-demo-dev-hello. ( service name defined in serverless.yml + function name defined in serverless.yml + stage in serverless.yml ). This is the default name generated for the lambda function but can be overridden.
++ Six AWS resources. We will look into the CloudFormation stack to see what were all the AWS resources created.
++ Created a lambda function named serverless-demo-dev-hello. ( service name defined in serverless.yml + stage in serverless.yml + function name defined in serverless.yml). This is the default name generated for the lambda function but can be overridden.
 
 ### CloudFormation Stack
 
 While looking into the CloudFormation stack, following are the AWS resources created.
-AWS::Lambda::Function — serverless-demo-dev-hello
-AWS::Lambda::Version — arn:aws:lambda:us-east-1:AccountID:function:serverless-demo-dev-hello:1
-AWS::Logs::LogGroup — /aws/lambda/serverless-demo-dev-hello
-AWS::IAM::Role — IamRoleLambdaExecution
-AWS::S3::Bucket — S3 Bucket for our package
-AWS::S3::BucketPolicy — S3 Bucket Policy
-Any serverless projects deployed would create an S3 Bucket and a Bucket Policy attached to the bucket that has the cloudformation template and the package deployed containing the code for the lambda functions.
-In this serverless project, a lambda function and an IAM role attached to the lambda function to CreateLogStream, CreateLogGroup and PutLogEvents’, a log group where the lambda’s log events will be traced were created.
++ AWS::Lambda::Function — serverless-demo-dev-hello
++ AWS::Lambda::Version — arn:aws:lambda:us-east-1:AccountID:function:serverless-demo-dev-hello:1
++ AWS::Logs::LogGroup — /aws/lambda/serverless-demo-dev-hello
++ AWS::IAM::Role — IamRoleLambdaExecution
++ AWS::S3::Bucket — S3 Bucket for our package
++ AWS::S3::BucketPolicy — S3 Bucket Policy
++ Any serverless projects deployed would create an S3 Bucket and a Bucket Policy attached to the bucket that has the cloudformation template and the package deployed containing the code for the lambda functions.
++ In this serverless project, a lambda function and an IAM role attached to the lambda function to CreateLogStream, CreateLogGroup and PutLogEvents’, a log group where the lambda’s log events will be traced were created.
 
-
-#### Serverless High Level Architecture Overview
+####  Demo Project - High Level Overview 
 The high-level architecture would look like as below,
 ![Serverless Framework](/media/serverless-framework-nodejs.png)
