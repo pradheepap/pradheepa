@@ -11,4 +11,5 @@ Here are some of my favourite tech blogs.
 + https://www.serverless.com/blog
 + https://www.alexdebrie.com
 + https://theburningmonk.com
++ https://www.lastweekinaws.com
 + https://aws.amazon.com/blogs (Filter based on Serverless Category)
