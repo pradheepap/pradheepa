@@ -1,5 +1,5 @@
 ---
-title: Serverless - An Introduction
+title: Serverless Architecture - An Introduction
 date: "2021-05-13T00:00:00.121Z"
 template: "post"
 draft: false
