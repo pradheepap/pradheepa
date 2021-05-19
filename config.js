@@ -22,6 +22,10 @@ module.exports = {
     {
       label: 'Following',
       path: '/pages/following'
+    },
+    {
+      label: 'Videos',
+      path: '/pages/videos'
     }
   ],
   author: {
