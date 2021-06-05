@@ -1,26 +1,25 @@
 ---
 title: CIDR Block
-date: "2021-06-05T00:00:00.121Z"
+date: "2021-06-06T00:00:00.121Z"
 template: "post"
 draft: false
-slug: "networking-cidr"
+slug: "networking-vpc"
 category: "AWS Networking"
 tags:
   - "Networking"
   - "Primer"
   - "AWS"
-description: "Ever wondered what is a CIDR block while creating VPC and how to allocate IP addresses to the subnets."
+  - "VPC"
+description: "To deploy any instances in AWS, it has to be part of VPC. But what is VPC?"
 socialImage: "/media/networking-series-cidr.png"
 ---
 ### Introduction
-
-Before working in serverless technologies, most of the applications I worked on were hosted on-prem. I used to interact with the infrastructure team and the questions they ask were sometimes not understandable to the application developers. The talk about firewall, ip addresses, ssl, ftp, connect direct connections are too much to comprehend initially. With serverless applications development though the application developer need not have to know about these terminologies, its good to understand what's behind the scenes. I
+ VPC is termed as Virtual Private Cloud.
 
 ![Networking Series](/media/networking-series-cidr.png)
 
-AWS opens the doors for the application developers to know about the networking configuration used by their application. Usually in an on-prem applications the networking services are managed by a different team and the developers are not aware of the configuration. The interaction typically happens where the network team share the snippets of the logs whenever an error occurred connecting to our application. But with more applications being developed on cloud services, developers can atleast access the lower environment configurations (dev or staging) which is usually mimicked to production.
 
-### CIDR Block (Classless Inter-Domain Routing)
+### Default VPC
 
 ![CIDR](/media/vpc-creation-cidr.png)
 
