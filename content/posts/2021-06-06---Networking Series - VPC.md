@@ -1,8 +1,8 @@
 ---
-title: CIDR Block
+title: Virtual Private Cloud (VPC)
 date: "2021-06-06T00:00:00.121Z"
 template: "post"
-draft: false
+draft: true
 slug: "networking-vpc"
 category: "AWS Networking"
 tags:
