@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.pradheepa.com',
   pathPrefix: '/',
   title: 'Blog by Pradheepa',
   subtitle: 'AWS Cloud Practitioner, Serverless Solutions Architect',
@@ -31,7 +31,7 @@ module.exports = {
   author: {
     name: 'Pradheepa P',
     photo: '/photo.jpg',
-    bio: 'AWS Serverless Solutions Architect',
+    bio: 'AWS Solutions Architect',
     contacts: {    
       twitter: '@pradheepa',
       github: 'pradheepap',
