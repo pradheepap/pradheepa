@@ -32,7 +32,7 @@ socialImage: "/media/aws-vpc.png"
   
 ### CIDR Block
   
-  To create a VPC, we need to define the [CIDR Block IP](/posts/networking-cidr) range. This defines the number of instances that a VPC can have. This defines how many IP addresses (instances) that can be placed inside this VPC. Again since this is at the VPC level, the IP addresses can span across multiple AZ. 
+  To create a VPC, we need to define the [CIDR Block IP](/posts/networking-cidr) range. This defines how many IP addresses (instances) that can be placed inside this VPC. Again since this is at the VPC level, the IP addresses can span across multiple AZ. 
   
   Let us consider the default VPC's `IP CIDR Block` which is `172.31.0.0/16`. The /16 means the first 16 bits (172.31 segment) had to remain unchanged and hence the first two IP segments cannot take any other value. This provides us with the room to change the last two IP segments to any number between (0-255). So the default VPC can take 65536 IP addresses. 
 
